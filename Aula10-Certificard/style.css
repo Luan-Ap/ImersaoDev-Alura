@@ -1,0 +1,50 @@
+/*propriedade visula: valor;    */
+
+body{
+  background-color: #ff5722;
+  font-family: 'Arial';
+}
+
+section{
+ box-shadow: 1px 1px 35px 55px rgba(0,0,0,0.73);
+-webkit-box-shadow: 1px 1px 35px 55px rgba(0,0,0,0.73);
+-moz-box-shadow: 1px 1px 35px 55px rgba(0,0,0,0.73);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 15px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+section h1{
+  font-size: 28px;
+}
+
+header{
+  background-image: url('https://i.pinimg.com/originals/b7/4c/7a/b74c7a06481d851374c9f67513653591.jpg');
+  background-size: cover;
+  height: 150px;
+}
+
+div{
+  border-radius: 10%;
+  border: 5px solid black;
+  padding: 15px;
+  margin: 15px;
+  background-color: lightblue;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-30%);
+  border: 8px solid white;
+}
